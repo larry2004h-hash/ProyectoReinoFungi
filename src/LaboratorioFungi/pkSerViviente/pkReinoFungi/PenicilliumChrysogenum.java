@@ -8,7 +8,7 @@ public class PenicilliumChrysogenum extends Moho {
         super("Penicillium chrysogenum", tipoHifa, velocidadCrecimiento);
     }
 
-    public Boolean getProduceAntibiotico() {
+    public Boolean ProduceAntibiotico() {
         return produceAntibiotico;
     }
 

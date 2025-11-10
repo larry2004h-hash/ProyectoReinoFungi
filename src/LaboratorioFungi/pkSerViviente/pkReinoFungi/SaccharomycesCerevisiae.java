@@ -3,7 +3,7 @@ package LaboratorioFungi.pkSerViviente.pkReinoFungi;
 public class SaccharomycesCerevisiae extends Levadura {
 
     private String usoIndustrial = "Panadería y fermentación";
-   private String tipoReporduccion = "Gemación";
+    private String tipoReproduccion = "Gemación";
     public SaccharomycesCerevisiae(String nombreCientifico, Float tamanoCelular, String metabolismo) {
         super(nombreCientifico, tamanoCelular, metabolismo);
     }
@@ -26,6 +26,6 @@ public class SaccharomycesCerevisiae extends Levadura {
     }
     public void reproducirsePorGemacion() {
         System.out.println("La levadura " + getNombreCientifico() +
-                "se está reproduciendose por "+tipoReporduccion);
+                "se está reproduciendose por "+tipoReproduccion);
     }
 }

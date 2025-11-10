@@ -2,13 +2,13 @@ package LaboratorioFungi.pkSerViviente.pkReinoFungi;
 
 public class ChampinonComun extends Seta {
 
-    private boolean comestible = true;
+    private Boolean comestible = true;
 
     public ChampinonComun(String nombreCientifico, Float diametroSombrero, Float longitudPie) {
         super(nombreCientifico, diametroSombrero, longitudPie);
     }
 
-    public boolean isComestible() {
+    public Boolean isComestible() {
         return comestible;
     }
 

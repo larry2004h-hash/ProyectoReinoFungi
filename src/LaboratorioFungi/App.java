@@ -12,5 +12,8 @@ public class App {
 
         AppLaboratorioFungi app = new AppLaboratorioFungi();
         app.iniciarLaboratorio();
+        app.registrarResultado();
+        app.realizarPago();
     }
+
 }

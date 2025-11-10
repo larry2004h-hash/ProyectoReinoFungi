@@ -3,13 +3,13 @@ package LaboratorioFungi;
 
 public class DataFast {
 
-    // Atributos
+    
     private String nombreEmpresa = "DataFast Ecuador";
     private String metodoPago; // efectivo o transferencia
     private double monto;
     private String estadoTransaccion; // "Pendiente", "Aprobada", "Rechazada"
 
-    // Constructor
+    
    public DataFast(double monto, String metodoPago) {
         this.monto = monto;
         this.metodoPago = metodoPago;
