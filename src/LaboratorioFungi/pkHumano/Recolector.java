@@ -1,4 +1,4 @@
-package LaboratorioFungi.Humano;
+package LaboratorioFungi.pkHumano;
 
 public class Recolector extends Persona {
     public Recolector(String cedula, String nombre, String apellido) {

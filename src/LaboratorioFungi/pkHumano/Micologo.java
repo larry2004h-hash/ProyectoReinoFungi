@@ -1,4 +1,4 @@
-package LaboratorioFungi.Humano;
+package LaboratorioFungi.pkHumano;
 
 public class Micologo extends Persona {
     public Micologo(String cedula, String nombre, String apellido) {
