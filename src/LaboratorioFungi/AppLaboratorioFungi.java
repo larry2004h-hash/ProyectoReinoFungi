@@ -2,21 +2,12 @@ package LaboratorioFungi;
 
 import LaboratorioFungi.pkHumano.Micologo;
 import LaboratorioFungi.pkHumano.Recolector;
-<<<<<<< HEAD
 import LaboratorioFungi.pkSerViviente.pkReinoFungi.SaccharomycesCerevisiae;
 import LaboratorioFungi.pkSerViviente.pkReinoFungi.ChampinonComun;
 import LaboratorioFungi.pkSerViviente.pkReinoFungi.PenicilliumChrysogenum;
 
 public class AppLaboratorioFungi {
 
-=======
-import LaboratorioFungi.DataFast;
-
-
-public class AppLaboratorioFungi {
-
-    // Atributos
->>>>>>> origin/main
     Micologo micologo1;
     Recolector recolector1;
     Recolector recolector2;
@@ -31,13 +22,9 @@ public class AppLaboratorioFungi {
         micologo1 = new Micologo("1234567890", "Juan", "Perez");
         recolector1 = new Recolector("Carlos", "Ramirez");
         recolector2 = new Recolector("0987654321", "Ana", "Gomez");
-<<<<<<< HEAD
         levadura1 = new SaccharomycesCerevisiae("Saccharomyces cerevisiae", 5.0f, "Fermentación alcohólica");
         champinon = new ChampinonComun("Agaricus bisporus", 7.5f, 4.0f);
         penicillium = new PenicilliumChrysogenum("Septada", 2.5f);
-=======
-        dataFast = new DataFast(  56.00,"efectivo");
->>>>>>> origin/main
     }
 
     public void iniciarLaboratorio() {
@@ -46,7 +33,6 @@ public class AppLaboratorioFungi {
         micologo1.setClave("micologia123");
         recolector2.recolectarMuestra("Cantharellus cibarius");
         micologo1.cultivarHongos();
-<<<<<<< HEAD
         System.out.println("_______________________________________________________________________________________________________________");
         
         levadura1.fermentar();
@@ -67,10 +53,6 @@ public class AppLaboratorioFungi {
         
         penicillium.formarMicelio();
         penicillium.sintetizarPenicilina();
-=======
-        dataFast.procesarPago();
-    }
->>>>>>> origin/main
 
         if (penicillium.getProduceAntibiotico()) {
             System.out.println("Produce antibiótico:" + "Sí");
