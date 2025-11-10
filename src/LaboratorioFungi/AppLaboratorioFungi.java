@@ -12,7 +12,7 @@ public class AppLaboratorioFungi {
 
     // Constructor
     public AppLaboratorioFungi() {
-        System.out.println("Construyendo el Laboratorio de Fungi...");
+        System.out.println("Construyendo el Laboratorio Fungi...");
         micologo1 = new Micologo("1234567890", "Juan", "Perez");
         recolector1 = new Recolector("Carlos", "Ramirez");
         recolector2 = new Recolector("0987654321", "Ana", "Gomez");
