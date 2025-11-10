@@ -38,7 +38,6 @@ public class DataFast {
     }
 
     public void mostrarRecibo() {
-        
         System.out.println("------ RECIBO DATAFAST ------");
         System.out.println("Empresa: " + nombreEmpresa);
         System.out.println("Método de pago: " + metodoPago);

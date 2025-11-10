@@ -7,7 +7,7 @@ import LaboratorioFungi.DataFast;
 
 public class AppLaboratorioFungi {
 
-    // Atributos 
+    // Atributos
     Micologo micologo1;
     Recolector recolector1;
     Recolector recolector2;
