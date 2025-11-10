@@ -1,16 +1,21 @@
 package LaboratorioFungi.pkHumano;
 
 public class Micologo extends Persona {
+
+    // Constructors-Persona
     public Micologo(String cedula, String nombre, String apellido) {
         super(cedula, nombre, apellido);
     }
+
     public Micologo(String nombre, String apellido) {
         super(nombre, apellido);
     }
 
+    // Atributos-Micologo
     private String login;
     private String password;
 
+    // Métodos-Micologo
     public boolean setClave(String password) {
         if (password.length() < 8) {
             System.out.println("La contraseña debe tener al menos 8 caracteres.");
@@ -42,3 +47,4 @@ public class Micologo extends Persona {
 
 
 }
+

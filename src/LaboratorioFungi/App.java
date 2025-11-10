@@ -1,8 +1,9 @@
 package LaboratorioFungi;
 public class App {
-    public static void main(String[] args) throws Exception {
-        
-    AppLaboratorioFungi app = new AppLaboratorioFungi();
+      // Método main para ejecutar
+    public static void main(String[] args) {
+        AppLaboratorioFungi app = new AppLaboratorioFungi();
+        app.iniciarLaboratorio();
     }
 
 }

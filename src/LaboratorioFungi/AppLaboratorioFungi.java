@@ -1,29 +1,27 @@
 package LaboratorioFungi;
-import LaboratorioFungi.Humano.Micologo;
-import LaboratorioFungi.Humano.Recolector;
-import LaboratorioFungi.Humano.Persona;
 
+import LaboratorioFungi.pkHumano.Micologo;
+import LaboratorioFungi.pkHumano.Recolector;
 
 public class AppLaboratorioFungi {
 
-AppLaboratorioFungi iniciaAppLaboratorioFungi = new AppLaboratorioFungi();
-Micologo micologo1 = new Micologo("1234567890", "Juan", "Perez");
-Micologo micologo2 = new Micologo("Maria", "Lopez");
-Recolector recolector1 = new Recolector("0987654321", "Ana", "Gomez");
-Recolector recolector2 = new Recolector("Carlos", "Ramirez");
+    // Atributos (opcional)
+    Micologo micologo1;
+    Recolector recolector1;
+    Recolector recolector2;
 
-public AppLaboratorioFungi() {
-    micologo1.setClave("micologia123");
-    micologo2.setClave("hongos456");
+    // Constructor
+    public AppLaboratorioFungi() {
+        micologo1 = new Micologo("1234567890", "Juan", "Perez");
+        recolector1 = new Recolector("Carlos", "Ramirez");
+        recolector2 = new Recolector("0987654321", "Ana", "Gomez");
+    }
 
-    recolector1.recolectarMuestra("Amanita muscaria");
-    recolector1.recolectarMuestra("Boletus edulis");
-    recolector1.entregarMuestras();
+    // Método principal del sistema
+    public void iniciarLaboratorio() {
+        micologo1.setClave("micologia123");
+        recolector2.recolectarMuestra("Cantharellus cibarius");
+        micologo1.cultivarHongos();
+    }
 
-    recolector2.recolectarMuestra("Cantharellus cibarius");
-    recolector2.entregarMuestras();
-
-    micologo1.cultivarHongos();
-    micologo2.cultivarHongos();
-
-}}
+}
