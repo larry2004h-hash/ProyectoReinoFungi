@@ -1,6 +1,6 @@
 package LaboratorioFungi;
+
 public class App {
-      // Método main para ejecutar
     public static void main(String[] args) {
         System.out.println("\n\n==========================================");
         System.out.println("      Escuela Politécnica Nacional");
@@ -13,5 +13,4 @@ public class App {
         AppLaboratorioFungi app = new AppLaboratorioFungi();
         app.iniciarLaboratorio();
     }
-
 }

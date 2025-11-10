@@ -1,8 +1,8 @@
 package LaboratorioFungi.pkSerViviente.pkReinoFungi;
 
-import LaboratorioFungi.pkSerViviente.serVivo;
+import LaboratorioFungi.pkSerViviente.SerVivo;
 
-public abstract class Fungi extends serVivo {
+public abstract class Fungi extends SerVivo {
 
     private String nombreCientifico;
     private Boolean esEucariota = true;
