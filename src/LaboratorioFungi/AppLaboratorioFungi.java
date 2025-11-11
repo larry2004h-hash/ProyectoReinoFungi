@@ -1,9 +1,10 @@
 package LaboratorioFungi;
 
 import java.util.Scanner;
-
 import LaboratorioFungi.pkHumano.Micologo;
 import LaboratorioFungi.pkHumano.Recolector;
+import LaboratorioFungi.pkInstitucionEconomica.Banco;
+import LaboratorioFungi.pkInstitucionEconomica.DataFast;
 import LaboratorioFungi.pkSerViviente.pkReinoFungi.SaccharomycesCerevisiae;
 import LaboratorioFungi.pkSerViviente.pkReinoFungi.ChampinonComun;
 import LaboratorioFungi.pkSerViviente.pkReinoFungi.Moho;
@@ -85,7 +86,7 @@ public class AppLaboratorioFungi {
         System.out.println("\n=== SISTEMA DE PAGO ===");
         System.out.print("Monto: ");
         double monto = sc.nextDouble();
-        sc.nextLine(); // limpiar buffer
+        sc.nextLine(); 
 
     
         System.out.println("\nSeleccione el método de pago:");
@@ -94,7 +95,7 @@ public class AppLaboratorioFungi {
         System.out.println("c) Tarjeta");
         System.out.print("Opción: ");
         char metodoChar = sc.next().charAt(0);
-        sc.nextLine(); // limpiar buffer
+        sc.nextLine(); 
 
         String metodoPago;
         switch (Character.toLowerCase(metodoChar)) {
@@ -112,7 +113,7 @@ public class AppLaboratorioFungi {
                 return;
         }
 
-        // Menú para plataforma
+       
         System.out.println("\nSeleccione la plataforma:");
         System.out.println("1) DataFast");
         System.out.println("2) Banco");
